@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لقطات الشاشة - Magical Letters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+</head>
+<body>
+    <div class="magic-bg">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+    </div>
+
+    <div class="glass-container">
+        <header>
+            <h1>📸 لقطات الشاشة</h1>
+            <p class="subtitle">شاهد سحر اللعبة بنفسك</p>
+        </header>
+
+        <div class="screenshot-gallery">
+            <a href="screenshots/screenshot1.jpg" data-lightbox="game-screenshots" data-title="واجهة اللعبة الرئيسية">
+                <img src="screenshots/screenshot1.jpg" alt="screenshot1">
+            </a>
+            <a href="screenshots/screenshot2.jpg" data-lightbox="game-screenshots" data-title="مرحلة من المراحل">
+                <img src="screenshots/screenshot2.jpg" alt="screenshot2">
+            </a>
+            <a href="screenshots/screenshot3.jpg" data-lightbox="game-screenshots" data-title="خريطة المراحل">
+                <img src="screenshots/screenshot3.jpg" alt="screenshot3">
+            </a>
+            <a href="screenshots/screenshot4.jpg" data-lightbox="game-screenshots" data-title="لعبة الحروف">
+                <img src="screenshots/screenshot4.jpg" alt="screenshot4">
+            </a>
+            <a href="screenshots/screenshot5.jpg" data-lightbox="game-screenshots" data-title="شاشة الإعدادات">
+                <img src="screenshots/screenshot5.jpg" alt="screenshot5">
+            </a>
+            <a href="screenshots/screenshot6.jpg" data-lightbox="game-screenshots" data-title="مكافآت يومية">
+                <img src="screenshots/screenshot6.jpg" alt="screenshot6">
+            </a>
+          <a href="screenshots/screenshot7.jpg" data-lightbox="game-screenshots" data-title="لعبة الحروف">
+                <img src="screenshots/screenshot7.jpg" alt="screenshot7">
+            </a>
+            <a href="screenshots/screenshot8.jpg" data-lightbox="game-screenshots" data-title="لعبة الحروف">
+                <img src="screenshots/screenshot8.jpg" alt="screenshot8">
+            </a>
+
+        </div>
+
+        <div class="back-link">
+            <a href="index.html"><i class="fas fa-arrow-right"></i> العودة للرئيسية</a>
+        </div>
+
+        <footer>
+            <p>© 2026 الحروف الساحرة. جميع الحقوق محفوظة.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'albumLabel': 'صورة %1 من %2',
+            'alwaysShowNavOnTouchDevices': true
+        });
+    </script>
+</body>
+</html>
